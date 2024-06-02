@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/catkin_ws/src/ackermann_robot_description/build/devel/setup.sh

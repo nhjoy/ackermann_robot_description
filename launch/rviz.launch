@@ -1,0 +1,17 @@
+<launch>
+    <!-- Robot Description -->
+    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find ackermann_robot_description)/urdf/yahboomcar_R2.urdf.xacro'" />
+
+    <!-- Joint State Publisher Nodes -->
+    <arg name="use_gui" default="true"/>
+    <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui"
+          if="$(arg use_gui)"/>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"
+          unless="$(arg use_gui)"/>
+
+    <!-- Robot State Publisher -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+
+    <!-- RViz -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ackermann_robot_description)/config/rviz_config.rviz"/>
+</launch>

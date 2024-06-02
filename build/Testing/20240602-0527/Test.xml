@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240602-0527-Experimental"
+	Name="FSG-3K4RRV3"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="7.5.0"
+	OSName="Linux"
+	Hostname="FSG-3K4RRV3"
+	OSRelease="5.15.146.1-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Thu Jan 11 04:09:03 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="15830"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2688"
+	>
+	<Testing>
+		<StartDateTime>Jun 02 22:43 +08</StartDateTime>
+		<StartTestTime>1717339405</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 02 22:43 +08</EndDateTime>
+		<EndTestTime>1717339405</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
