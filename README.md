@@ -2,16 +2,18 @@
 # Ackermann Robot Description
 
 This repository contains the robot description files for the R2 robot, a model with Ackermann steering, derived from an original URDF provided by Yahboom. It focuses specifically on setting up and running the R2 robot within RViz and Gazebo environments under ROS Melodic.
+
+![R2-robot](R2-robot.png)
+
 ## Acknowledgements
 
 This project uses a modified version of the URDF originally provided by [Yahboom](http://www.yahboom.net/home). The original files can be found on their [GitHub](https://github.com/YahboomTechnology/ROSMASTER-R2).
+
 ## Prerequisites
 
 ```bash
   sudo apt-get install ros-melodic-joint-state-publisher-gui
 ```
-
-
 
 ## Installation
 
